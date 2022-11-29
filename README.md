@@ -37,8 +37,18 @@ If the list contains nine contours after this step, there's a pretty good chance
 
 - If yes, great. Draw the contour outlines and the colours detected on the face
 
+## In action
+
+![Face detection in action](example.png)
+
 ## Points of interest
 
 - Uses the OpenCV findContours method to detect contours
 - Uses KMeans clustering (k=1) to identify the dominant colour in a contour
-- Uses the CIEDE2000 colour difference to detect and match colours 
+- Uses the CIEDE2000 colour difference to detect and match colours
+- OpenCV requires BGR not RGB because reasons 
+
+## Todo
+
+- Option to calibrate colours to improve colour matching in different light conditions
+- Solve the cube after capturing six sides; not a computer vision problem so not intending to do this
