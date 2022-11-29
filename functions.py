@@ -6,8 +6,8 @@ def draw_contours(image, squares):
     pos = 0
     for square in squares:
         x, y, w, h = square["x"], square["y"], square["w"], square["h"]
-        cv.rectangle(image, (x, y), (x+w, y+h), (255, 0, 0), 5)
-        cv.putText(image, f"{pos}", (x+int(0.5*w), y+int(0.5*h)), cv.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2, cv.LINE_AA)
+        cv.rectangle(image, (x, y), (x+w, y+h), (220, 220, 220), 5)
+        cv.putText(image, f"{pos}", (x+int(0.5*w), y+int(0.5*h)), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 2, cv.LINE_AA)
         pos += 1
 
 def draw_mini_cube(image, squares):
