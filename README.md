@@ -2,7 +2,7 @@
 
 An OpenCV-based computer vision project to detect the nine coloured stickers on each face of a Rubik's cube.
 
-![Face detection in action](https://user-images.githubusercontent.com/48687462/204614974-75dfb6fe-2961-4526-abe6-ca9626b4e247.mov)
+https://user-images.githubusercontent.com/48687462/217076114-78ee131a-b115-4e46-b14f-7fd3080c927c.mp4
 
 ## Installation and usage
 
